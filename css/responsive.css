@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px) {
+  .no-mobile {
+    display: block;
+  }
+
+  .menu_burguer {
+    display: none;
+  }
+
+  .menu {
+    grid-column: 2 / 3;
+    width: 100%;
+    height: inherit;
+  }
+  
+  .menu ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 0px;
+  }
+
+  .menu li a {
+    padding: 8px 16px;
+  }
+}
