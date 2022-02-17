@@ -57,7 +57,17 @@ header {
   display: block;
   text-align: center;
   text-transform: uppercase;
+  border: transparent solid 3px;
 }
+
+.menu li .focus {
+  border: var(--white) solid 3px;
+}
+
+.menu li a:hover {
+  background: var(--white);
+  color: var(--blue);
+} 
 
 main {
   padding-top: 64px;
